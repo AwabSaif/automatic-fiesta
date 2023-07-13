@@ -1,3 +1,6 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #404040;
@@ -79,7 +82,7 @@ p {
     text-align: center;
     color: #fff;
     background-color: #9480e4;
-    background-image: url("./images/1intro-bg.png");
+    background-image: url("./images/intro-bg.png");
     background-size: cover;
     padding-bottom: 1.5em;
 }
@@ -117,7 +120,7 @@ input {
     padding: 0.5em;
     margin-bottom:0.75em ;
     border: 2px  solid #d1d5db ;
-   
+
    }
 input:focus {
     outline: none;
