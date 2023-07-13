@@ -79,8 +79,9 @@ p {
     text-align: center;
     color: #fff;
     background-color: #9480e4;
-    background-image: url("./images/intro-bg.png");
+    background-image: url("./images/1intro-bg.png");
     background-size: cover;
+    padding-bottom: 1.5em;
 }
 
 /* ====================
@@ -97,6 +98,10 @@ p {
     width: 120px;
 
     border-radius: 50%;
+}
+.main-content p,
+form {
+     max-width: 450px;
 }
 
 /* =================
