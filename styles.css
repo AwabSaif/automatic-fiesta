@@ -81,8 +81,8 @@ p {
     min-height: 250px;
     text-align: center;
     color: #fff;
-    background-color: #9480e4;
-    background-image: url("./images/intro-bg.png");
+    background-color: #326799;
+    background-image: url("./images/1intro-bg.png");
     background-size: cover;
     padding-bottom: 1.5em;
 }
@@ -124,7 +124,7 @@ input {
    }
 input:focus {
     outline: none;
-    border-color:  #8a71ec;
+    border-color:  #326799;
     background-color: #e6e8ec ;
    }
 .btn {
@@ -137,7 +137,7 @@ input:focus {
 }
 .btn-primary {
     color: white;
-    background-color: #8a71ec ;
+    background-color: #326799 ;
     margin-top: 1em;
 }
 .btn-primary:hover,
